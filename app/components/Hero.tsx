@@ -33,9 +33,13 @@ const Hero = () => {
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-600 dark:border-blue-400">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
-              AM
-            </div>
+            <Image
+              src="/images/1744924598943.jpg"
+              alt="Atef Mannai"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </div>
